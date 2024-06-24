@@ -1,0 +1,79 @@
+.background-radial-gradient {
+    background: linear-gradient(300deg, #f7cfff, #dcb8ff, #dcb6ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+    min-height: 100vh;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#dc9eff, #cd76ff);
+    overflow: hidden;
+  }
+  
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#dc9eff, #cf8bf7);
+    overflow: hidden;
+  }
+  
+  #radius-shape-3 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(#d691fd, #cf7dff);
+    overflow: hidden;
+    left: 20%;
+    top: 70%;
+    transform: translateY(-30%);
+  }
+  
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+  
+  .btn-purple {
+    color: #ca6dff !important;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-purple:hover {
+    color: #44006b !important;
+  }
+  
+  .btn.btn-signup {
+    background-color: #ca6dff !important;
+    border-color: #ca6dff !important;
+    color: white !important;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.btn-signup:hover {
+    background-color: #8e00d6 !important;
+    border-color: #8e00d6 !important;
+    color: white !important;
+  }
+  
+ 
